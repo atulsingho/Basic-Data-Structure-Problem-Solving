@@ -15,7 +15,7 @@ int main()
             cout<<"Found at index"<<mid;
             return 0;
         }
-        else if(arr[mid]<key)
+        else if(arr[mid]<key)  // Condition for Ascending Order
         {
             low=mid+1;
         }
